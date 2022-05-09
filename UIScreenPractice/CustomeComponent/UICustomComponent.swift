@@ -11,7 +11,7 @@ import UIKit
 
 class UICustomComponent: UITextField {
     
-    var textPading = UIEdgeInsets(top: 2, left: 5, bottom: 2, right: 50)
+    var textPading = UIEdgeInsets(top: 2, left: 5, bottom: 2, right: 10)
     
     override func textRect(forBounds bounds: CGRect) -> CGRect {
         let rect  = super.textRect(forBounds: bounds)
@@ -54,6 +54,5 @@ extension UICustomComponent {
         imageContainerView.addSubview(imageView)
         rightView = imageContainerView
         rightViewMode = .always
-
     }
 }

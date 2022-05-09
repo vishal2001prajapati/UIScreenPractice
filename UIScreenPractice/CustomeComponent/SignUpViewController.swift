@@ -22,7 +22,7 @@ class SignUpViewController: UIViewController {
         textPassword.delegate = self
         textPassword.becomeFirstResponder()
         self.hideKeyboardWhenTappedAround()
-    
+        
     }
 }
 
@@ -50,8 +50,8 @@ extension SignUpViewController {
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
+    
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
-    
 }

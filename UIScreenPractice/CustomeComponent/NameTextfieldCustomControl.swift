@@ -32,6 +32,6 @@ class NameTextfieldCustomControl: UICustomComponent {
     override func setup() {
         super.setup()
         self.placeholder = "Full Name"
+        self.imgRightSide(imgName: "")
     }
-    
 }

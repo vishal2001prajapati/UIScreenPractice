@@ -204,7 +204,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j1d-KA-cPs">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="922"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="890.5"/>
                                                 <subviews>
                                                     <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n3b-3n-6E2">
                                                         <rect key="frame" x="0.0" y="1" width="414" height="44"/>
@@ -222,7 +222,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbw-db-hfk" userLabel="Enter your Phone number or Email for sign in, Or">
                                                         <rect key="frame" x="20" y="162" width="317" height="41"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="Enter your Name, Email and Password for sign up.">
+                                                            <fragment content="Enter your Name, Email and Password for sign up. ">
                                                                 <attributes>
                                                                     <font key="NSFont" metaFont="system" size="17"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -238,7 +238,7 @@
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mjK-kA-BqH" customClass="UICustomComponent" customModule="UIScreenPractice" customModuleProvider="target">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mjK-kA-BqH" customClass="SimpleTextFieldCustomCotrol" customModule="UIScreenPractice" customModuleProvider="target">
                                                         <rect key="frame" x="20" y="303" width="374" height="54"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="54" id="QET-oW-k3h"/>
@@ -249,7 +249,7 @@
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pzK-8M-mM0" customClass="PasswordTextFieldCustomControl" customModule="UIScreenPractice" customModuleProvider="target">
                                                         <rect key="frame" x="20" y="371" width="374" height="54"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpb-Tz-WuH" customClass="ButtonCustomComponent" customModule="UIScreenPractice" customModuleProvider="target">
                                                         <rect key="frame" x="20" y="450" width="374" height="33.5"/>
@@ -258,19 +258,19 @@
                                                         <state key="normal" title="Sign In"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEx-3o-eUi" customClass="LabelOrText" customModule="UIScreenPractice" customModuleProvider="target">
-                                                        <rect key="frame" x="168" y="583.5" width="79" height="19.5"/>
+                                                        <rect key="frame" x="168" y="552" width="79" height="19.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <color key="textColor" name="ForgetPasswordColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6M-6Q-1ZW" customClass="FacebookButtonCustom" customModule="UIScreenPractice" customModuleProvider="target">
-                                                        <rect key="frame" x="20" y="627.5" width="374" height="30"/>
+                                                        <rect key="frame" x="20" y="596" width="374" height="30"/>
                                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Connect with Facebook"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbm-tM-aFG" customClass="GoogleButtonCustom" customModule="UIScreenPractice" customModuleProvider="target">
-                                                        <rect key="frame" x="20" y="673.5" width="374" height="30"/>
+                                                        <rect key="frame" x="20" y="642" width="374" height="30"/>
                                                         <color key="tintColor" name="GoogleButtonColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Connect with google"/>
@@ -305,6 +305,7 @@
                                                     <constraint firstItem="Nbm-tM-aFG" firstAttribute="leading" secondItem="j1d-KA-cPs" secondAttribute="leading" constant="20" id="7TX-wq-wB9"/>
                                                     <constraint firstItem="pzK-8M-mM0" firstAttribute="width" secondItem="mjK-kA-BqH" secondAttribute="width" id="7Xv-jc-sjs"/>
                                                     <constraint firstItem="74I-vJ-4KN" firstAttribute="leading" secondItem="j1d-KA-cPs" secondAttribute="leading" constant="46" id="9Tm-XY-m9x"/>
+                                                    <constraint firstItem="VEx-3o-eUi" firstAttribute="top" secondItem="74I-vJ-4KN" secondAttribute="bottom" constant="24" id="AkX-z7-5zQ"/>
                                                     <constraint firstAttribute="trailing" secondItem="n3b-3n-6E2" secondAttribute="trailing" id="Fj6-ch-hb3"/>
                                                     <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="J5X-hR-81G" secondAttribute="trailing" constant="179" id="Gsw-kt-0wK"/>
                                                     <constraint firstItem="nbw-db-hfk" firstAttribute="top" secondItem="J5X-hR-81G" secondAttribute="bottom" constant="20" id="HF6-T4-AMx"/>
@@ -314,7 +315,6 @@
                                                     <constraint firstItem="26v-rM-by3" firstAttribute="leading" secondItem="j1d-KA-cPs" secondAttribute="leading" constant="20" id="PRu-XZ-fNF"/>
                                                     <constraint firstItem="fpb-Tz-WuH" firstAttribute="top" secondItem="pzK-8M-mM0" secondAttribute="bottom" constant="25" id="VnK-j7-Tj1"/>
                                                     <constraint firstItem="nbw-db-hfk" firstAttribute="leading" secondItem="j1d-KA-cPs" secondAttribute="leading" constant="20" id="XmV-Th-tnN"/>
-                                                    <constraint firstItem="VEx-3o-eUi" firstAttribute="top" secondItem="fpb-Tz-WuH" secondAttribute="bottom" constant="100" id="Y27-RV-Uyt"/>
                                                     <constraint firstItem="J5X-hR-81G" firstAttribute="top" secondItem="j1d-KA-cPs" secondAttribute="top" constant="112" id="Zj0-Es-sFl"/>
                                                     <constraint firstAttribute="trailing" secondItem="fpb-Tz-WuH" secondAttribute="trailing" constant="20" id="bAK-eX-VxE"/>
                                                     <constraint firstItem="74I-vJ-4KN" firstAttribute="top" secondItem="fpb-Tz-WuH" secondAttribute="bottom" constant="24" id="cS3-Xw-k1x"/>

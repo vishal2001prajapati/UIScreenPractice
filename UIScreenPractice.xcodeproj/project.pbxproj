@@ -10,6 +10,7 @@
 		371F6ADB2828E72200976BB2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F6ADA2828E72200976BB2 /* SignUpViewController.swift */; };
 		371F6ADD2828E7AE00976BB2 /* NameTextfieldCustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F6ADC2828E7AE00976BB2 /* NameTextfieldCustomControl.swift */; };
 		371F6AE02828F5AC00976BB2 /* PrivacyLabelCustomCumponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F6ADF2828F5AC00976BB2 /* PrivacyLabelCustomCumponent.swift */; };
+		371F6AE2282922E300976BB2 /* SimpleTextFieldCustomCotrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F6AE1282922E300976BB2 /* SimpleTextFieldCustomCotrol.swift */; };
 		373C07E52820E617004F4AD8 /* LabelForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C07E42820E616004F4AD8 /* LabelForgetPassword.swift */; };
 		373C07E72820F61A004F4AD8 /* FacebookButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C07E62820F61A004F4AD8 /* FacebookButtonCustom.swift */; };
 		373C07E928212585004F4AD8 /* GoogleButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C07E828212585004F4AD8 /* GoogleButtonCustom.swift */; };
@@ -61,6 +62,7 @@
 		371F6ADA2828E72200976BB2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		371F6ADC2828E7AE00976BB2 /* NameTextfieldCustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextfieldCustomControl.swift; sourceTree = "<group>"; };
 		371F6ADF2828F5AC00976BB2 /* PrivacyLabelCustomCumponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyLabelCustomCumponent.swift; sourceTree = "<group>"; };
+		371F6AE1282922E300976BB2 /* SimpleTextFieldCustomCotrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTextFieldCustomCotrol.swift; sourceTree = "<group>"; };
 		373C07E42820E616004F4AD8 /* LabelForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelForgetPassword.swift; sourceTree = "<group>"; };
 		373C07E62820F61A004F4AD8 /* FacebookButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButtonCustom.swift; sourceTree = "<group>"; };
 		373C07E828212585004F4AD8 /* GoogleButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButtonCustom.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				371F6ADA2828E72200976BB2 /* SignUpViewController.swift */,
 				371F6ADC2828E7AE00976BB2 /* NameTextfieldCustomControl.swift */,
 				371F6ADF2828F5AC00976BB2 /* PrivacyLabelCustomCumponent.swift */,
+				371F6AE1282922E300976BB2 /* SimpleTextFieldCustomCotrol.swift */,
 			);
 			path = CustomeComponent;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			files = (
 				374D9FE2281B9E8D00BF0A5A /* ViewController.swift in Sources */,
 				374D9FDE281B9E8D00BF0A5A /* AppDelegate.swift in Sources */,
+				371F6AE2282922E300976BB2 /* SimpleTextFieldCustomCotrol.swift in Sources */,
 				37973BA62822558E00812D29 /* Enumrations.swift in Sources */,
 				374DA00F281BA28400BF0A5A /* UICustomComponent.swift in Sources */,
 				37B8881B281FF4CA00FC565E /* LabelCustomComponent.swift in Sources */,
