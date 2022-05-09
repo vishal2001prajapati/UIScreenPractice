@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373C07E52820E617004F4AD8 /* LabelForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C07E42820E616004F4AD8 /* LabelForgetPassword.swift */; };
+		373C07E72820F61A004F4AD8 /* FacebookButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C07E62820F61A004F4AD8 /* FacebookButtonCustom.swift */; };
+		373C07E928212585004F4AD8 /* GoogleButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C07E828212585004F4AD8 /* GoogleButtonCustom.swift */; };
+		373C07F728215B31004F4AD8 /* SFBoldItalic.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 373C07EE28215B31004F4AD8 /* SFBoldItalic.OTF */; };
+		373C07F828215B31004F4AD8 /* SFRegular.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 373C07EF28215B31004F4AD8 /* SFRegular.OTF */; };
+		373C07FA28215B31004F4AD8 /* SFBold.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 373C07F128215B31004F4AD8 /* SFBold.OTF */; };
+		373C07FB28215B31004F4AD8 /* SFMedium.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 373C07F228215B31004F4AD8 /* SFMedium.OTF */; };
 		374D9FDE281B9E8D00BF0A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D9FDD281B9E8D00BF0A5A /* AppDelegate.swift */; };
 		374D9FE0281B9E8D00BF0A5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D9FDF281B9E8D00BF0A5A /* SceneDelegate.swift */; };
 		374D9FE2281B9E8D00BF0A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D9FE1281B9E8D00BF0A5A /* ViewController.swift */; };
@@ -16,6 +23,18 @@
 		374D9FF5281B9E8E00BF0A5A /* UIScreenPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D9FF4281B9E8E00BF0A5A /* UIScreenPracticeTests.swift */; };
 		374D9FFF281B9E8E00BF0A5A /* UIScreenPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D9FFE281B9E8E00BF0A5A /* UIScreenPracticeUITests.swift */; };
 		374DA001281B9E8E00BF0A5A /* UIScreenPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA000281B9E8E00BF0A5A /* UIScreenPracticeUITestsLaunchTests.swift */; };
+		374DA00F281BA28400BF0A5A /* UICustomComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA00E281BA28400BF0A5A /* UICustomComponent.swift */; };
+		374DA013281BDDEA00BF0A5A /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA012281BDDEA00BF0A5A /* UIColors.swift */; };
+		374DA015281C201D00BF0A5A /* ButtonCustomComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA014281C201D00BF0A5A /* ButtonCustomComponent.swift */; };
+		37973BA02822450700812D29 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37973B9F2822450600812D29 /* Poppins-Bold.ttf */; };
+		37973BA22822458B00812D29 /* FontsFree-Net-SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37973BA12822458B00812D29 /* FontsFree-Net-SFProText-Regular.ttf */; };
+		37973BA42822460100812D29 /* FontsFree-Net-SFProText-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37973BA32822460100812D29 /* FontsFree-Net-SFProText-RegularItalic.ttf */; };
+		37973BA62822558E00812D29 /* Enumrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37973BA52822558E00812D29 /* Enumrations.swift */; };
+		37973BA828228DCB00812D29 /* LabelOrText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37973BA728228DCB00812D29 /* LabelOrText.swift */; };
+		37973BAA2822989E00812D29 /* UIFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37973BA92822989E00812D29 /* UIFonts.swift */; };
+		37B8881B281FF4CA00FC565E /* LabelCustomComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B8881A281FF4CA00FC565E /* LabelCustomComponent.swift */; };
+		37B8881D2820127F00FC565E /* LabelSimpleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B8881C2820127F00FC565E /* LabelSimpleText.swift */; };
+		37B8881F28202E2A00FC565E /* PasswordTextFieldCustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B8881E28202E2A00FC565E /* PasswordTextFieldCustomControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		373C07E42820E616004F4AD8 /* LabelForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelForgetPassword.swift; sourceTree = "<group>"; };
+		373C07E62820F61A004F4AD8 /* FacebookButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButtonCustom.swift; sourceTree = "<group>"; };
+		373C07E828212585004F4AD8 /* GoogleButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButtonCustom.swift; sourceTree = "<group>"; };
+		373C07EE28215B31004F4AD8 /* SFBoldItalic.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFBoldItalic.OTF; sourceTree = "<group>"; };
+		373C07EF28215B31004F4AD8 /* SFRegular.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFRegular.OTF; sourceTree = "<group>"; };
+		373C07F128215B31004F4AD8 /* SFBold.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFBold.OTF; sourceTree = "<group>"; };
+		373C07F228215B31004F4AD8 /* SFMedium.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFMedium.OTF; sourceTree = "<group>"; };
 		374D9FDA281B9E8D00BF0A5A /* UIScreenPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScreenPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374D9FDD281B9E8D00BF0A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		374D9FDF281B9E8D00BF0A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +75,18 @@
 		374D9FFA281B9E8E00BF0A5A /* UIScreenPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScreenPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374D9FFE281B9E8E00BF0A5A /* UIScreenPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenPracticeUITests.swift; sourceTree = "<group>"; };
 		374DA000281B9E8E00BF0A5A /* UIScreenPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		374DA00E281BA28400BF0A5A /* UICustomComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomComponent.swift; sourceTree = "<group>"; };
+		374DA012281BDDEA00BF0A5A /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
+		374DA014281C201D00BF0A5A /* ButtonCustomComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustomComponent.swift; sourceTree = "<group>"; };
+		37973B9F2822450600812D29 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		37973BA12822458B00812D29 /* FontsFree-Net-SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		37973BA32822460100812D29 /* FontsFree-Net-SFProText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProText-RegularItalic.ttf"; sourceTree = "<group>"; };
+		37973BA52822558E00812D29 /* Enumrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumrations.swift; sourceTree = "<group>"; };
+		37973BA728228DCB00812D29 /* LabelOrText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelOrText.swift; sourceTree = "<group>"; };
+		37973BA92822989E00812D29 /* UIFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFonts.swift; sourceTree = "<group>"; };
+		37B8881A281FF4CA00FC565E /* LabelCustomComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCustomComponent.swift; sourceTree = "<group>"; };
+		37B8881C2820127F00FC565E /* LabelSimpleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelSimpleText.swift; sourceTree = "<group>"; };
+		37B8881E28202E2A00FC565E /* PasswordTextFieldCustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldCustomControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +114,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373C07EA28215B31004F4AD8 /* SFpro */ = {
+			isa = PBXGroup;
+			children = (
+				37973BA32822460100812D29 /* FontsFree-Net-SFProText-RegularItalic.ttf */,
+				37973BA12822458B00812D29 /* FontsFree-Net-SFProText-Regular.ttf */,
+				37973B9F2822450600812D29 /* Poppins-Bold.ttf */,
+				373C07EE28215B31004F4AD8 /* SFBoldItalic.OTF */,
+				373C07EF28215B31004F4AD8 /* SFRegular.OTF */,
+				373C07F128215B31004F4AD8 /* SFBold.OTF */,
+				373C07F228215B31004F4AD8 /* SFMedium.OTF */,
+			);
+			path = SFpro;
+			sourceTree = "<group>";
+		};
 		374D9FD1281B9E8D00BF0A5A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +151,9 @@
 		374D9FDC281B9E8D00BF0A5A /* UIScreenPractice */ = {
 			isa = PBXGroup;
 			children = (
+				373C07EA28215B31004F4AD8 /* SFpro */,
+				374DA010281BDDC700BF0A5A /* Extension */,
+				374DA00D281BA21600BF0A5A /* CustomeComponent */,
 				374D9FDD281B9E8D00BF0A5A /* AppDelegate.swift */,
 				374D9FDF281B9E8D00BF0A5A /* SceneDelegate.swift */,
 				374D9FE1281B9E8D00BF0A5A /* ViewController.swift */,
@@ -125,6 +180,32 @@
 				374DA000281B9E8E00BF0A5A /* UIScreenPracticeUITestsLaunchTests.swift */,
 			);
 			path = UIScreenPracticeUITests;
+			sourceTree = "<group>";
+		};
+		374DA00D281BA21600BF0A5A /* CustomeComponent */ = {
+			isa = PBXGroup;
+			children = (
+				374DA00E281BA28400BF0A5A /* UICustomComponent.swift */,
+				37B8881E28202E2A00FC565E /* PasswordTextFieldCustomControl.swift */,
+				374DA014281C201D00BF0A5A /* ButtonCustomComponent.swift */,
+				37B8881A281FF4CA00FC565E /* LabelCustomComponent.swift */,
+				37B8881C2820127F00FC565E /* LabelSimpleText.swift */,
+				373C07E42820E616004F4AD8 /* LabelForgetPassword.swift */,
+				373C07E62820F61A004F4AD8 /* FacebookButtonCustom.swift */,
+				373C07E828212585004F4AD8 /* GoogleButtonCustom.swift */,
+				37973BA52822558E00812D29 /* Enumrations.swift */,
+				37973BA728228DCB00812D29 /* LabelOrText.swift */,
+			);
+			path = CustomeComponent;
+			sourceTree = "<group>";
+		};
+		374DA010281BDDC700BF0A5A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				374DA012281BDDEA00BF0A5A /* UIColors.swift */,
+				37973BA92822989E00812D29 /* UIFonts.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +312,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373C07FB28215B31004F4AD8 /* SFMedium.OTF in Resources */,
+				373C07F828215B31004F4AD8 /* SFRegular.OTF in Resources */,
+				37973BA42822460100812D29 /* FontsFree-Net-SFProText-RegularItalic.ttf in Resources */,
+				373C07F728215B31004F4AD8 /* SFBoldItalic.OTF in Resources */,
+				37973BA02822450700812D29 /* Poppins-Bold.ttf in Resources */,
 				374D9FEA281B9E8E00BF0A5A /* LaunchScreen.storyboard in Resources */,
 				374D9FE7281B9E8E00BF0A5A /* Assets.xcassets in Resources */,
+				37973BA22822458B00812D29 /* FontsFree-Net-SFProText-Regular.ttf in Resources */,
+				373C07FA28215B31004F4AD8 /* SFBold.OTF in Resources */,
 				374D9FE5281B9E8D00BF0A5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +348,19 @@
 			files = (
 				374D9FE2281B9E8D00BF0A5A /* ViewController.swift in Sources */,
 				374D9FDE281B9E8D00BF0A5A /* AppDelegate.swift in Sources */,
+				37973BA62822558E00812D29 /* Enumrations.swift in Sources */,
+				374DA00F281BA28400BF0A5A /* UICustomComponent.swift in Sources */,
+				37B8881B281FF4CA00FC565E /* LabelCustomComponent.swift in Sources */,
+				37973BA828228DCB00812D29 /* LabelOrText.swift in Sources */,
+				373C07E72820F61A004F4AD8 /* FacebookButtonCustom.swift in Sources */,
+				37973BAA2822989E00812D29 /* UIFonts.swift in Sources */,
+				373C07E52820E617004F4AD8 /* LabelForgetPassword.swift in Sources */,
 				374D9FE0281B9E8D00BF0A5A /* SceneDelegate.swift in Sources */,
+				374DA015281C201D00BF0A5A /* ButtonCustomComponent.swift in Sources */,
+				374DA013281BDDEA00BF0A5A /* UIColors.swift in Sources */,
+				37B8881D2820127F00FC565E /* LabelSimpleText.swift in Sources */,
+				37B8881F28202E2A00FC565E /* PasswordTextFieldCustomControl.swift in Sources */,
+				373C07E928212585004F4AD8 /* GoogleButtonCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
