@@ -14,6 +14,6 @@ extension UIColor {
     static let buttonColor: UIColor = UIColor(named: "SignUpButton") ?? UIColor.black
     static let lblTextColor: UIColor = UIColor(named: "SubLabelFontColor") ?? UIColor.black
     static let lblForgetPassword: UIColor = UIColor(named: "ForgetPasswordColor") ?? UIColor.black
-    static let btnFacebookColor: UIColor = UIColor(named: "FacebookColor") ?? UIColor.black
+    static let btnFacebookColor: UIColor = UIColor(named: "facebookColor") ?? UIColor.black
     static let btnGoogleColor: UIColor = UIColor(named: "GoogleButtonColor") ?? UIColor.black
 }

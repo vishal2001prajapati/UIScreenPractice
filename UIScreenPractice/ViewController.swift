@@ -10,13 +10,12 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var txtEmail: UICustomComponent!
-    @IBOutlet weak var paswordText: UITextField!
-    
+    @IBOutlet weak var textPassword: PasswordTextFieldCustomControl!
     override func viewDidLoad() {
         super.viewDidLoad()
         txtEmail.delegate = self
-        paswordText.delegate = self
-        paswordText.becomeFirstResponder()
+        textPassword.delegate = self
+        textPassword.becomeFirstResponder()
         self.hideKeyboardWhenTappedAround()
     }
 }
@@ -26,8 +25,8 @@ extension ViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField == txtEmail {
             textField.resignFirstResponder()
-            paswordText.becomeFirstResponder()
-        } else if textField == paswordText {
+            textPassword.becomeFirstResponder()
+        } else if textField == textPassword {
             textField.resignFirstResponder()
         }
         return true
